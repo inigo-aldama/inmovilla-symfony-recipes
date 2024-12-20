@@ -1,0 +1,3 @@
+inmovilla_api_proxy:
+  resource: '@InmovillaApiProxyBundle/Resources/config/routes.yaml'
+  prefix: / # Puedes modificar el prefijo si lo deseas

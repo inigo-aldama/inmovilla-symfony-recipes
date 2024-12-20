@@ -1,0 +1,6 @@
+inmovilla_api_client:
+  agency: '%env(INMOVILLA_AGENCY)%'
+  password: '%env(INMOVILLA_PASSWORD)%'
+  language: '%env(int:INMOVILLA_LANGUAGE)%'
+  api_url: '%env(INMOVILLA_API_URL)%'
+  domain: '%env(INMOVILLA_DOMAIN)%'

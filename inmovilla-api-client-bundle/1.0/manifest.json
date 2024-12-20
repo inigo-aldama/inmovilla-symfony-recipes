@@ -1,0 +1,15 @@
+{
+  "bundles": {
+    "Inmovilla\\ApiClientBundle\\InmovillaApiClientBundle": ["all"]
+  },
+  "env": {
+    "INMOVILLA_AGENCY": "your_agency_id",
+    "INMOVILLA_PASSWORD": "your_password",
+    "INMOVILLA_LANGUAGE": "1",
+    "INMOVILLA_API_URL": "https://api.inmovilla.com",
+    "INMOVILLA_DOMAIN": "your_domain"
+  },
+  "copy-from-recipe": {
+    "config/": "%CONFIG_DIR%/"
+  }
+}
